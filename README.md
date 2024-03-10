@@ -23,7 +23,7 @@ Program to implement the linear regression using gradient descent.
 Developed by: H MOHAMED FARIKH
 RegisterNumber:  212223080032
 */
-```
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -54,6 +54,8 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
+```
+
 
 ## Output:
 Data Information 
